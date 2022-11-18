@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Gesture</title>
+        <link href="static/style_index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="col-md-offset-3 col-md-5" style="margin-top:50px" >
+            <form action="/process" method="post" enctype="multipart/form-data">
+                <div class=heading><h1>A GESTURE BASED TOOL FOR STERILE BROWSING</h1></div>
+                <div class="form-group">
+                    <input type="file" class="form-control"  id="upload_image" name="upload_image">
+                </div>
+                <div class="form-group">
+                    <input type="submit"  class="btn btn-primary btn-block" value="Capture Video" name="upload_image">
+                </div>
+                <div class="form-group">
+                    <center><img id="display_image" class="img img-thumbnail" ></center>
+                </div>
+            </form>
+            <form action="/intro" enctype="multipart/form-data">
+                    <input type="submit" class="btn2 btn-primary btn-block" value="Back">
+
+            </form>
+        </div>
+    </body>
+</html>
+<script>
+    const image_input = document.querySelector("#upload_image");
+    image_input.addEventListener("change", function() {
+       const reader = new FileReader();
+       reader.addEventListener("load", () => {
+       const uploaded_image = reader.result;
+       document.querySelector("#display_image").style.backgroundImage = `url(${uploaded_image})`;
+    });
+       reader.readAsDataURL(this.files[0]);
+    });
+</script>
