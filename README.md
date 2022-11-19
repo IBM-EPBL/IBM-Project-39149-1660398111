@@ -2,16 +2,16 @@
 
 <h3>Project Details</h3>
 
-Project Title: <b>A GESTURE BASED TOOL FOR STERILE BROWSING OF RADIOLOGY IMAGES</b>
-Domain: Artificial Intelligence
-Team ID: PNT2022TMID51961
-College Name: Amrita College of Engineering and Technology
+- Project Title: <b>A GESTURE BASED TOOL FOR STERILE BROWSING OF RADIOLOGY IMAGES</b>
+- Domain: Artificial Intelligence
+- Team ID: PNT2022TMID51961
+- College Name: Amrita College of Engineering and Technology
 
 <h3>Team details</h3>
 
-Faculty Mentor: Mrs. Karpagavalli C
-Team Leader: Padma Priya T R (962319104065)
-Team Members Thanya S S (962319104094), Naresh K (962319104061), Pranav R (962319104068)  
+- Faculty Mentor: Mrs. Karpagavalli C
+- Team Leader: Padma Priya T R (962319104065)
+- Team Members Thanya S S (962319104094), Naresh K (962319104061), Pranav R (962319104068)  
 
 
 <h3>Abstract</h3>
